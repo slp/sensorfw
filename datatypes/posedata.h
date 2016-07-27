@@ -73,12 +73,12 @@ public:
     enum Orientation
     {
         Undefined = 0, /**< Orientation is unknown. */
+        BottomDown,    /**< Device bottom is down */
+        BottomUp,      /**< Device bottom is up */
         LeftUp,        /**< Device left side is up */
         RightUp,       /**< Device right side is up */
-        BottomUp,      /**< Device bottom is up */
-        BottomDown,    /**< Device bottom is down */
-        FaceDown,      /**< Device face is down */
-        FaceUp         /**< Device face is up */
+        FaceUp,        /**< Device face is up */
+        FaceDown       /**< Device face is down */
     };
 
     PoseData::Orientation orientation_; /**< Device Orientation */
