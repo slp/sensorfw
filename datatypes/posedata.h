@@ -73,10 +73,10 @@ public:
     enum Orientation
     {
         Undefined = 0, /**< Orientation is unknown. */
-        BottomDown,    /**< Device bottom is down */
         BottomUp,      /**< Device bottom is up */
-        LeftUp,        /**< Device left side is up */
+        BottomDown,    /**< Device bottom is down */
         RightUp,       /**< Device right side is up */
+        LeftUp,        /**< Device left side is up */
         FaceUp,        /**< Device face is up */
         FaceDown       /**< Device face is down */
     };
